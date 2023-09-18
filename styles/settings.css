@@ -1,0 +1,36 @@
+html {
+  font-size: 62.5%;
+
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background-color: var(--background-color);
+
+  text-rendering: optimizeSpeed;
+  line-height: 0.8;
+}
+
+.header__container {
+  max-width: var(--max-width);
+  
+  margin: 0 auto;
+
+  padding: 2rem;
+}
+
+.main__container, .footer__container {
+  max-width: var(--max-width);
+  
+  margin: 0 auto;
+}
