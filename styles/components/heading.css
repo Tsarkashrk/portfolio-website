@@ -11,6 +11,10 @@
     font-size: var(--font-size-xxl);
   }
 
+  .heading__title--secondary {
+    color: var(--secondary-color);
+  }
+
   .heading__text {
     display: flex;
     flex-direction: column;

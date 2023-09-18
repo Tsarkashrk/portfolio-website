@@ -26,6 +26,7 @@
   /* color */ 
 
   --background-color: #f5f5f5;
+  --background-color-dark: rgb(237, 237, 237);
 
   --primary-color: #000;
   --primary-color-light: #6c6c6c;
@@ -33,7 +34,7 @@
   --secondary-color: #fff;
 
   --meta-color: #086fec;
-  --meta-color-light: #005ed1;
+  --meta-color-dark: #005ed1;
 
   /* transition */
 

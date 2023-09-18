@@ -17,6 +17,7 @@
 /* Sections */
 
 @import url(../components/sections/about.css);
+@import url(../components/sections/skills.css);
 @import url(../components/sections/contacts.css);
 @import url(../components/sections/experience.css);
 @import url(../components/sections/hero.css);

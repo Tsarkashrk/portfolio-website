@@ -22,14 +22,10 @@ body {
 }
 
 .header__container {
-  max-width: var(--max-width);
-  
-  margin: 0 auto;
-
   padding: 2rem;
 }
 
-.main__container, .footer__container {
+.header__container, .main__container, .footer__container {
   max-width: var(--max-width);
   
   margin: 0 auto;

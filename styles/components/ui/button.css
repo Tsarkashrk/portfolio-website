@@ -22,5 +22,5 @@
 }
 
 .button:hover {
-  background-color: var(--meta-color-light);
+  background-color: var(--meta-color-dark);
 }
