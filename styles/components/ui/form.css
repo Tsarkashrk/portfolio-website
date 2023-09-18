@@ -1,0 +1,12 @@
+#form {
+
+  .form__input {
+    padding: 1.5rem 2rem;
+
+    border: 2px solid black;
+    border-radius: 5rem;
+
+    background-color: white;
+
+  }
+}

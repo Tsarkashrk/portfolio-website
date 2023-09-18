@@ -5,14 +5,14 @@
     justify-content: space-between;
     align-self: center;
   }
-}
 
-.logo {
-  font-family: var(--font-bold);
-  font-size: var(--font-size-md );
-  color: var(--primary-color);
+  .header__logo {
+    font-family: var(--font-bold);
+    font-size: var(--font-size-md );
+    color: var(--primary-color);
 
-  cursor: pointer;
+    cursor: pointer;
 
-  transition: var(--transition);
+    transition: var(--transition);
+  }
 }

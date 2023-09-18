@@ -4,8 +4,6 @@
   justify-content: center;
   gap: 2rem;
 
-  margin-bottom: 5.5rem;
-
   min-height: calc(100vh - 5.6rem);
 
   text-align: center;
@@ -18,15 +16,14 @@
   .hero__title {
     font-family: var(--font-bold);
     font-size: var(--font-size-3xl);
-    word-spacing: 10rem;
   }
 
   .hero__description {
     font-family: var(--font-bold);
     font-size: var(--font-size-lg);
   }
+}
 
-  .hero__description--blue {
-    color: var(--meta-color);
-  }
+.meta-color {
+  color: var(--meta-color);
 }

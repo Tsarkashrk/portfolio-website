@@ -6,9 +6,7 @@
 
 /* Components */
 
-@import url(../components/about.css);
 @import url(../components/heading.css);
-@import url(../components/hero.css);
 
 /* Layouts */
 
@@ -16,7 +14,17 @@
 @import url(../components/layouts/main.css);
 @import url(../components/layouts/footer.css);
 
+/* Sections */
+
+@import url(../components/sections/about.css);
+@import url(../components/sections/contacts.css);
+@import url(../components/sections/experience.css);
+@import url(../components/sections/hero.css);
+@import url(../components/sections/home.css);
 
 /* UI */
 
 @import url(../components/ui/navigation.css);
+@import url(../components/ui/form.css);
+@import url(../components/ui/button.css);
+@import url(../components/ui/sidebar.css);
