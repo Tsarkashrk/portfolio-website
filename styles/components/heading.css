@@ -1,0 +1,24 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+
+  .heading__title {
+    text-align: center;
+    font-family: var(--font-bold);
+    font-size: var(--font-size-lg);
+  }
+
+  .heading__description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .heading__text {
+    font-family: var(--font-regular);
+    font-size: var(--font-size-md);
+
+    line-height: 1.5;
+  }
+}
