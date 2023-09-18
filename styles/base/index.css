@@ -25,6 +25,7 @@
 /* UI */
 
 @import url(../components/ui/navigation.css);
-@import url(../components/ui/form.css);
 @import url(../components/ui/button.css);
 @import url(../components/ui/sidebar.css);
+@import url(../components/ui/input.css);
+@import url(../components/ui/form.css);

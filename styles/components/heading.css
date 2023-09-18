@@ -8,7 +8,7 @@
   .heading__title {
     text-align: center;
     font-family: var(--font-bold);
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-xxl);
   }
 
   .heading__text {
@@ -31,6 +31,12 @@
     background-color: var(--secondary-color);
 
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    transition: var(--transition);
+  }
+
+  .heading__element:hover {
+    transform: scale(1.03);
   }
 
   .heading__description {

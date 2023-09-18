@@ -1,0 +1,26 @@
+.button {
+  width: 40%;
+
+  margin-top: 2rem;
+
+  padding: 1.5rem 2rem;
+
+  border: none;
+  border-radius: 2rem;
+
+  background-color: var(--meta-color);
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  font-family: var(--font-medium);
+  font-size: var(--font-size-xs);
+  color: var(--secondary-color);
+
+  transition: var(--transition);
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--meta-color-light);
+}

@@ -15,4 +15,8 @@
 
     transition: var(--transition);
   }
+
+  .header__logo:hover {
+    letter-spacing: 0.3rem;
+  }
 }

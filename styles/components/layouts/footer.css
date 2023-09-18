@@ -1,0 +1,28 @@
+.footer {
+  margin-bottom: 2rem;
+
+  .footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footer__text {
+    font-family: var(--font-medium);
+    font-size: var(--font-size-xxs);
+    line-height: 1.5;
+    color: var(--primary-color-light);
+  }
+
+  .footer__products {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .footer__product {
+    font-size: var(--font-size-lg);
+
+    cursor: pointer;
+  }
+}
