@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 10rem;
 
-  margin-bottom: 20rem;
+  margin-bottom: 10rem;
 
   .heading__title {
     text-align: center;
@@ -16,7 +16,12 @@
     flex-direction: column;
     gap: 2rem;
   }
-  
+
+  .heading__text--secondary {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   .heading__elements {
     display: flex;
     justify-content: center;
@@ -49,6 +54,30 @@
 
   .heading__element:hover {
     transform: scale(1.03);
+  }
+
+  .heading__element--secondary {
+    margin-bottom: 0;
+  }
+
+  .heading__element--secondary:hover {
+    transform: scale(1.06);
+  }
+
+  .heading__element:first-child {
+    margin-top: 5rem;
+
+    height: 68%;
+  }
+
+  .heading__element:nth-child(2) {
+    height: 75%;
+  }
+
+  .heading__element:last-child {
+    margin-top: 8rem;
+
+    height: 68%;
   }
 
   .heading__description {
