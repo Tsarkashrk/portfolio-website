@@ -1,7 +1,3 @@
-#about {
-  background-color: var(--primary-color);
-}
-
 .about__container {
   max-width: var(--max-width);
 

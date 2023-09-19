@@ -11,14 +11,22 @@
     font-size: var(--font-size-xxl);
   }
 
-  .heading__title--secondary {
-    color: var(--secondary-color);
-  }
-
   .heading__text {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+  }
+  
+  .heading__elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  .heading__number {
+    font-family: var(--font-bold);
+    font-size: var(--font-size-3xl);
   }
 
   .heading__element {
